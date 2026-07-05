@@ -45,27 +45,18 @@
             text-transform: uppercase;
         }
 
-.tagline {
-    font-family: Arial, sans-serif;
-    font-size: 15px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: var(--text-muted);
-    font-weight: bold;
-    margin: 0 auto;
-    
-    /* Configured for full desktop length & responsive mobile wrapping */
-    max-width: 800px;
-    width: 100%;
-}
-
-        .location-badge {
+        .tagline {
             font-family: Arial, sans-serif;
-            font-size: 13px; /* Increased font size */
-            letter-spacing: 1px;
+            font-size: 15px;
             text-transform: uppercase;
-            margin-top: 15px;
+            letter-spacing: 2px;
+            color: var(--text-muted);
             font-weight: bold;
+            margin: 0 auto;
+            
+            /* Configured for full desktop length & responsive mobile wrapping */
+            max-width: 800px;
+            width: 100%;
         }
 
         .container {
@@ -148,9 +139,9 @@
             margin-bottom: 20px;
         }
 
-        .email-address {
+        .dm-link {
             font-family: Arial, sans-serif;
-            font-size: 18px; /* Increased font size */
+            font-size: 18px;
             font-weight: bold;
             color: var(--text-dark);
             text-decoration: none;
@@ -167,8 +158,21 @@
             color: var(--text-muted);
             border-top: 1px solid var(--border-muted);
             background-color: var(--bg-alt);
-            letter-spacing: 2px;
+            letter-spacing: 1.5px;
             font-weight: bold;
+        }
+
+        .disclaimer-text {
+            display: block;
+            margin-top: 15px;
+            font-style: italic;
+            font-weight: normal;
+            letter-spacing: 0.5px;
+            text-transform: none;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            line-height: 1.4;
         }
     </style>
 </head>
@@ -178,7 +182,6 @@
         <div class="logo-container">Δδ</div>
         <h1>DeltaMale Group</h1>
         <p class="tagline">“We post the (unofficial) required curriculum for CS students.”</p>
-        <div class="location-badge">Based in Lausanne, Switzerland 🇨🇭</div>
     </header>
 
     <div class="container">
@@ -187,40 +190,43 @@
         <section>
             <h2>I. Mandatory Archives</h2>
             <div class="directive-note">
-                Notice: The exact same content is posted everywhere. Pick your preferred network to procrastinate:
+                Notice: The baseline knowledge repository and high-value educational modules can be extracted here:
             </div>
 
             <ul class="directory-list">
                 <li class="directory-item primary">
-                    <span class="platform-name">Instagram (Primary)</span>
-                    <a href="https://instagram.com/deltamalegroup" target="_blank" class="access-link">Access →</a>
-                </li>
-                <li class="directory-item">
-                    <span class="platform-name">TikTok</span>
-                    <a href="https://tiktok.com/@deltamalegroup" target="_blank" class="access-link">Access →</a>
-                </li>
-                <li class="directory-item">
-                    <span class="platform-name">YouTube Shorts</span>
-                    <a href="https://youtube.com/@deltamalegroup" target="_blank" class="access-link">Access →</a>
+                    <span class="platform-name">Instagram (Primary Feed)</span>
+                    <a href="https://instagram.com/deltamalegroup" target="_blank" class="access-link">Access Archives →</a>
                 </li>
             </ul>
         </section>
 
-        <!-- Section 2: Monetization -->
+        <!-- Section 2: Public Relations -->
         <section>
-            <h2>II. Office of Monetization</h2>
+            <h2>II. Office of Public Relations</h2>
             <div class="contact-box">
                 <p class="pitch-text">
-                    If you have any product ideas we can easily exploit to make vast sums of money:
+                    For corporate alignment, critical grievances, or to present scalable commercial infrastructure:
                 </p>
-                <a href="mailto:hq@deltamalegroup.com" class="email-address">hq@deltamalegroup.com</a>
+                <a href="https://instagram.com/deltamalegroup" target="_blank" class="dm-link">CONTACT COMMUNICATIONS VIA INSTAGRAM DM</a>
+            </div>
+        </section>
+
+        <!-- Section 3: Academic Accountability -->
+        <section>
+            <h2>III. Declaration of Academic Accountability</h2>
+            <div class="directive-note" style="font-size: 15px; line-height: 1.5; text-align: justify;">
+                By interacting with our structural frameworks, the user acknowledges that the DeltaMale Group is not a substitute for attending lectures, nor are we responsible if your custom compiler develops sentience and starts mocking your choice of variable names. We do not offer academic credit, we do not issue degree certificates, and we absolutely will not sign off on your university's mandatory internship paperwork just because you watched three of our reels back-to-back while sitting in a parking lot. 
             </div>
         </section>
 
     </div>
 
     <footer>
-        © 2026 DELTA MALE GROUP. SWISS JURISDICTION APPLIES. NOT ABET ACCREDITED.
+        © 2026 DELTA MALE GROUP. NOT ABET ACCREDITED. ALL RIGHTS RESERVED.
+        <span class="disclaimer-text">
+            *Legal Disclaimer: Copying code from our visual resources and pasting it blindly into your production environment is strictly encouraged, though completely uninsured. This static document was carefully assembled using high-grade, zero-dependency markup language by an engineer who physically typed every semicolon with extreme intent. This is authentic, certified human architecture. Definitely not generated by a generative pre-trained transformer suffering from severe hallucinations.
+        </span>
     </footer>
 
 </body>
